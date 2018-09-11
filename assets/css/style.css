@@ -154,8 +154,24 @@ form {
     border-color: #dddddd;
 }
 
-#row-pad {
+#row-pad-1 {
     padding: 15px 0px;
+    border-style: solid;
+    border-width: 0px 1px;
+    border-color: #dddddd;
+}
+
+#row-pad-2 {
+    padding: 15px 0px;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: #dddddd;
+}
+
+#col-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 }
 
 #foot {
@@ -185,4 +201,10 @@ form {
 
 #about-p1 {
     margin-top: 7px;
+}
+
+#port-border-top {
+    border-style: solid;
+    border-width: 1px 1px 0px;
+    border-color: #dddddd;
 }
