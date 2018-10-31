@@ -111,16 +111,6 @@ form {
     padding-top: 25px;
 }
 
-.body-h6 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 14px;
-    font-weight: normal;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    padding: 10px 0px;
-}
-
 .standard-nav {
     display: inline;
 }
@@ -128,7 +118,6 @@ form {
 .responsive-nav {
     position: relative;
     top: -55px;
-    right: 
 }
 
 .img-responsive {
@@ -140,12 +129,34 @@ form {
     width: 100%;
 }
 
+.img-select {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #4aaaa5;
+    color: white;
+    line-height: 2.6;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.img-select:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    color: inherit;
+}
+
 #clear-float {
     clear: both;
 }
 
 #nav-pad {
     padding: 0px;
+}
+
+#navbar-links {
+    text-align: center;
+    color: #ffffff;
 }
 
 #body-hr {
@@ -208,3 +219,15 @@ form {
     border-width: 1px 1px 0px;
     border-color: #dddddd;
 }
+
+/* Keeping just in case an issue is discovered with img-select classes
+
+.body-h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}*/
