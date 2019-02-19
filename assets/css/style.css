@@ -90,6 +90,11 @@ form {
     padding-top: 10px;
 }
 
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
 .nav-h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 32px;
@@ -144,6 +149,10 @@ form {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
     color: inherit;
+}
+
+.contact-btn {
+    padding: 15px 0px;
 }
 
 #clear-float {
@@ -219,15 +228,3 @@ form {
     border-width: 1px 1px 0px;
     border-color: #dddddd;
 }
-
-/* Keeping just in case an issue is discovered with img-select classes
-
-.body-h6 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 14px;
-    font-weight: normal;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    padding: 10px 0px;
-}*/
